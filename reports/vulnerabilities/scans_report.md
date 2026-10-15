@@ -16,4 +16,4 @@
 ## How to Resolve (Optimization & Remediation Steps)
 - Enforce mandatory pagination parameters (e.g. `?page=1&size=20`).
 - Create composite index on `(tenant_id, status, started_at DESC)`.
-- Cache active scan execution lists in Redis key `scans:list`.
+- Cache active scan execution lists in Redis key `scans:list`..
